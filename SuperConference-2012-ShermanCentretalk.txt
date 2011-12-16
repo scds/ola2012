@@ -1,0 +1,23 @@
+﻿Where: Toronto Metro Convention Centre
+
+
+When: Thursday, February 2, 2012 10:40 am
+
+
+Link: http://www.accessola.org/ola_prod/OLAWEB/Super_Conference/Program/2012/Sessions/416.aspx
+
+
+Abstract:
+
+
+The Sherman Centre for Digital Scholarship began operation in early 2012 at McMaster University, but has been in development for over a year. A common question that one hears around digital scholarship/humanities centres is: what do you do? We’ll discuss the formation and purpose of the centre and the role of the library, librarians, and other library staff. While centres vary from institution to institution, our purpose here is to outline specifically the directions we want to take the Sherman Centre and how this will attempt to address the new challenges emerging in academic research and teaching. 
+
+
+Dale: introduction, background, what are our roles, governance, staffing, current update (space, projects, pictures), results of dale’s answer poll thing about what a centre should do, access (physical), staff and institutional relationship building (see match making below), project management education, DS vs. DH
+
+
+John: computing infrastructure, grad & faculty relationship (liaison), sla writing, services, where do we start and stop with a project?, github, version control evangelism, project management education
+
+
+Nick: big infrastructure stuff: repository (big visualization), digital preservation, digitization (the challenges) --- stealth scholarly communications <-match making [OVERALL FOR ALL OF US?] what i do does not neatly fit in any specific unit (collections, archives, IT, liaison), project management education
+what can the centre do with the repository down the road - harvest data, textual analysis,
