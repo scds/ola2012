@@ -4,4 +4,4 @@ I LIKE TURTLES?
   | you will need to download and install freemind: http://freemind.sourceforge.net/wiki/index.php/Main_Page
 
 /slides
-  | still up for grabs
+  | jbfink's doing them in showoff in slides/jbfink, but you can do them however you like.
