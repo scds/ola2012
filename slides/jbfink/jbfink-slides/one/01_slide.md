@@ -33,6 +33,9 @@
 
 !SLIDE
 # github #
+* Already a site for a lot of DH development
+* Scholarslab, CHNM
+* Visibility!
 
 !SLIDE
 # version control evangelism #
