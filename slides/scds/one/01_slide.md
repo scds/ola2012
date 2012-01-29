@@ -40,6 +40,11 @@
 # where do we stop or start with a project? #
 
 !SLIDE bullets incremental
+# Theory Vs. Practice
+* aka hack v. yak
+
+# 
+!SLIDE bullets incremental
 # github #
 * Already a site for a lot of DH development
 * Scholarslab, CHNM
