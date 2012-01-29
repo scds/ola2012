@@ -62,7 +62,7 @@ I don't really fit in anywhere, but I fit in everywhere?
 
 * Digitization
 * Digital Respository
-* Digitial Preservation
+* Digital Preservation
 
 .notes one of my standard phases at work is INFRASTRUCTURE! Given that when I started at Mac there was nearly zero infrastructure for digitization or repository structure, we had to basically start from scratch. Over the last few years we have built some decent infrastructure for Digitization. We have a hosted institutional repository from Bepress (DigitalCommons) and we have the begun the work of building a solid local digital repository with Fedora Commons and Islandora. We're also slowly working on policy and best practices for digital preservation. 
 
