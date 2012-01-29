@@ -2,15 +2,24 @@
 # A Digital Scholarship Centre? What is that!? #
 
 !SLIDE
-# THIS ARE WHERE DALE'S SLIDES START #
+# THIS IS WHERE DALE'S SLIDES START #
 
 !SLIDE
-# THIS ARE WHERE JOHN'S SLIDES START #
+# THIS IS WHERE JOHN'S SLIDES START #
 
 !SLIDE bullets incremental
 # Computing Infrastructure #
 * Heavy reliance on VMs
 * Keep administration agile
+
+!SLIDE bullets incremental
+# Right now this means #
+* KVM for VMs
+* .deb based Linux distributions
+* sysadmin through cherry-pick or clusterssh
+
+!SLIDE bullets incremental
+# This is not terribly scalable #
 
 
 !SLIDE bullets incremental
