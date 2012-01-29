@@ -2,10 +2,48 @@
 # A Digital Scholarship Centre? What is that!? #
 
 !SLIDE
-# THESE ARE WHERE DALE'S SLIDES START #
+# THIS ARE WHERE DALE'S SLIDES START #
 
 !SLIDE
-# THESE ARE WHERE JOHN'S SLIDES START #
+# THIS ARE WHERE JOHN'S SLIDES START #
+
+!SLIDE bullets incremental
+# Computing Infrastructure #
+* Heavy reliance on VMs
+* Keep administration agile
+
+
+!SLIDE bullets incremental
+# grad and faculty relationship #
+* Concentrate on underserved populations
+* At Mac this means humanities grad students, humanities in general
+ 
+!SLIDE
+# sla writing #
+* Yeah, I should do this at some point. ;)
+
+!SLIDE
+# services #
+* Physical services
+* Virtual services
+
+!SLIDE
+# where do we stop or start with a project? #
+
+!SLIDE
+# github #
+* Already a site for a lot of DH development
+* Scholarslab, CHNM
+* Visibility!
+
+!SLIDE
+# version control evangelism #
+
+!SLIDE
+# project management education #
+
+!SLIDE
+# THIS IS WHERE NICK'S SLIDES START #
 
 !SLIDE center
 ![img/French.png](img/French.png)
