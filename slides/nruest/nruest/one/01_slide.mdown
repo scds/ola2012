@@ -2,8 +2,11 @@
 # INFRASTRUCTURE! INFRASTRUCTURE! INFRASTRUCTURE! #
 
 !SLIDE center
-image - insert image, but sinatra crashes like a dick when i insert it :(
+![img/duck.jpg](img/duck.jpg)
 
+!SLIDE center transition=growY
+I am an odd duck. I don't really fit in anywhere, but I fit in everywhere?
+  
 !SLIDE bullets incremental transition=toss
 # INFRASTRUCTURE #
 
