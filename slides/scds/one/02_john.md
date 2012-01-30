@@ -1,3 +1,9 @@
+!SLIDE
+# John Fink #
+# Digital Scholarship Librarian #
+
+.notes Relax and breathe.
+
 !SLIDE bullets incremental
 # Computing Infrastructure #
 * Heavy reliance on VMs
@@ -34,10 +40,14 @@ spin up a completely new machine ready to go, can't beat that.
 # sla writing #
 * Necessary for a framework
 
+.notes This is hard. It's part of that plumbing thing that needs being done but is distinctly unsexy and a bit of a slog. But without it, people (can/(will?)) just roll right over you. Have a structure document is *important*. Deciding on that structure doco has to (like a lot of stuff) be a collaborative endeavour.
+
 !SLIDE bullets incremental
 # services #
 * Physical services
 * Virtual services
+
+.notes Hey, man, this is a service profession innit? Still here, even with this. 
 
 !SLIDE
 # where do we stop or start with a project? #
