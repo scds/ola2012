@@ -113,3 +113,10 @@ I don't really fit in anywhere, but I fit in everywhere?
 * Version control
 
 .notes Policy on what is required to ingest a collection into the repository - this is minumum requirements for objects and associated metadata. Consulting on best practices for digital preservation for a project, our us taking ownership of the objects. Harvesting - knowledge sharing about what harvesting is, and what can be done with it. Metadata - best practices, and guidance for setting up metadata requirements for a project. Best practices is just a catch all for everything that doesn't neatly fall into one of these areas. Project management - Guidance and knowledge sharing on project management. We've all had our hands in a number of projects, and lead our fair share. Here we share our best practices and can provide a sort of mentoring role, or actual project lead. Version control - John touched on this earlier, but we are huge version control advocates, specifically git. We can provide a lot of support and guidance in transitioning a project to version control, or from another system to git, or just the odd git question.
+
+!SLIDE center
+# Contact info #
+* email: ruestn@mcmaster.ca
+* twitter: ruebot
+* github: github.com/ruebot
+* macrepo visualization: http://ruebot.net/macrepo-visual/index.html
