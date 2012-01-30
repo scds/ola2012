@@ -28,6 +28,8 @@ spin up a completely new machine ready to go, can't beat that.
 * (initially) Concentrate on underserved populations
 * At Mac this means humanities grad students, humanities in general
 
+.notes At McMaster sadly enough historically most of the attention has been on STEM. However this is also AWESOME really because underserver population = a market that will think you are wonderful for helping them out. Grad students especially.
+
 !SLIDE bullets incremental
 # sla writing #
 * Necessary for a framework
