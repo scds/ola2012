@@ -19,7 +19,7 @@
 * (initially) Concentrate on underserved populations
 * At Mac this means humanities grad students, humanities in general
 
-!SLIDE
+!SLIDE bullets incremental
 # sla writing #
 * Necessary for a framework
 
@@ -42,8 +42,8 @@
 * Visibility!
 
 !SLIDE
-#version control evangelism #
+# version control evangelism #
 
 !SLIDE
-# project management education #
+# project management and culture #
 
