@@ -66,7 +66,12 @@ I don't really fit in anywhere, but I fit in everywhere?
 
 !SLIDE center
 ![img/macrep-zoom.png](img/macrepo-zoom.png)
-check out the infograph here: http://ruebot.net/macrepo-visual/index.html
+
+!SLIDE center
+![img/itm-maps.png](img/itm-maps.png)
+
+!SLIDE center
+![img/itm-viewer.png](img/itm-viewer.png)
 
 !SLIDE bullets
 # Digitial Preservation #
