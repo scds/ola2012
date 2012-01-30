@@ -1,3 +1,9 @@
+!SLIDE
+# John Fink #
+# Digital Scholarship Librarian #
+
+.notes Relax and breathe.
+
 !SLIDE bullets incremental
 # Computing Infrastructure #
 * Heavy reliance on VMs
