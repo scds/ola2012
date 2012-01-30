@@ -40,6 +40,8 @@ spin up a completely new machine ready to go, can't beat that.
 # sla writing #
 * Necessary for a framework
 
+.notes This is hard. It's part of that plumbing thing that needs being done but is distinctly unsexy and a bit of a slog. But without it, people (can) just roll right over you. Have a structure document is *important*
+
 !SLIDE bullets incremental
 # services #
 * Physical services
