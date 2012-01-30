@@ -71,10 +71,10 @@ I don't really fit in anywhere, but I fit in everywhere?
 ![img/itm-maps.png](img/itm-maps.png)
 
 !SLIDE center
-![img/itm-viewer.png](img/itm-viewer.png)
+![img/iiv-viewer.png](img/iiv-viewer.png)
 
 !SLIDE bullets
-# Digitial Preservation #
+# Digital Preservation #
 
 * Documentation
   * Documentation
