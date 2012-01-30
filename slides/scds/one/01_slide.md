@@ -60,7 +60,7 @@
 # THIS IS WHERE NICK'S SLIDES START #
 
 !SLIDE center
-![img/French.png](img/French.png)
+![img/RichFu.png](img/RichFu.png)
 I am an odd duck.
 
 !SLIDE center
@@ -126,7 +126,7 @@ I don't really fit in anywhere, but I fit in everywhere?
 ![img/macrep-zoom.png](img/macrepo-zoom.png)
 check out the infograph here: http://ruebot.net/macrepo-visual/index.html
 
-!SLIDE bullets incremental
+!SLIDE bullets
 # Digitial Preservation #
 
 * Documentation
@@ -145,7 +145,7 @@ check out the infograph here: http://ruebot.net/macrepo-visual/index.html
 !SLIDE center
 # Support #
 
-!SLIDE bullets incremental
+!SLIDE bullets
 # What can the repo do or provide? #
 
 * APIs
