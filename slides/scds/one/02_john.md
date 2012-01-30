@@ -1,6 +1,3 @@
-!SLIDE
-# THIS IS WHERE JOHN'S SLIDES START #
-
 !SLIDE bullets incremental
 # Computing Infrastructure #
 * Heavy reliance on VMs
@@ -26,7 +23,7 @@
 # sla writing #
 * Necessary for a framework
 
-!SLIDE
+!SLIDE bullets incremental
 # services #
 * Physical services
 * Virtual services
@@ -35,10 +32,9 @@
 # where do we stop or start with a project? #
 
 !SLIDE bullets incremental
-# Theory Vs. Practice
+# Theory Vs. Practice #
 * aka hack v. yak
 
-#
 !SLIDE bullets incremental
 # github #
 * Already a site for a lot of DH development
