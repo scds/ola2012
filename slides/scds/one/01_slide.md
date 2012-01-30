@@ -20,7 +20,8 @@
 
 !SLIDE bullets incremental
 # This is not terribly scalable #
-
+* Puppet/Chef for VM admin
+* Maybe other OSs
 
 !SLIDE bullets incremental
 # grad and faculty relationship #
