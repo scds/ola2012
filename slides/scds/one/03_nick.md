@@ -117,5 +117,5 @@ I don't really fit in anywhere, but I fit in everywhere?
 # Contact info #
 * email: ruestn@mcmaster.ca
 * twitter: ruebot
-* github: github.com/ruebot
+* github: http://github.com/ruebot
 * macrepo visualization: http://ruebot.net/macrepo-visual/index.html
