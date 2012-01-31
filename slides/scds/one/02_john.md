@@ -49,8 +49,11 @@ spin up a completely new machine ready to go, can't beat that.
 
 .notes Hey, man, this is a service profession innit? Still here, even with this. 
 
-!SLIDE
+!SLIDE bullets incremental
 # where do we stop or start with a project? #
+* ...
+
+.notes We're still really figuring this out. It's both a good and a bad thing. Early on, it's really great to cast your net as wide as possible, get some projects under your belt so you have something to point to, but later on if (when!) you get super popular, this becomes less scalable and that's where the SLA comes in.
 
 !SLIDE bullets incremental
 # Theory Vs. Practice #
