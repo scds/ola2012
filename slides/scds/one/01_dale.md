@@ -34,22 +34,22 @@
 ## (please insert your own people and furniture) ##
   
 !SLIDE center
-![img/L1030232.JPG](img/L1030232.JPG)
+![img/L1030232.jpg](img/L1030232.jpg)
 
 !SLIDE center
-![img/L1030231.JPG](img/L1030231.JPG)
+![img/L1030231.jpg](img/L1030231.jpg)
 
 !SLIDE center
-![img/L1030233.JPG](img/L1030233.JPG)
+![img/L1030233.jpg](img/L1030233.jpg)
 
 !SLIDE center
-![img/L1030234.JPG](img/L1030234.JPG)
+![img/L1030234.jpg](img/L1030234.jpg)
 
 !SLIDE center
-![img/L1030236.JPG](img/L1030236.JPG)
+![img/L1030236.jpg](img/L1030236.jpg)
 
 !SLIDE center
-![img/L1030235.JPG](img/L1030235.JPG)
+![img/L1030235.jpg](img/L1030235.jpg)
 
 !SLIDE center
 ![img/floor-plans.png](img/floor-plans.png)
