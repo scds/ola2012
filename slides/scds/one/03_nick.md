@@ -1,6 +1,3 @@
-!SLIDE
-# THIS IS WHERE NICK'S SLIDES START #
-
 !SLIDE center
 ![img/RichFu.png](img/RichFu.png)
 I am an odd duck.
@@ -60,6 +57,8 @@ I don't really fit in anywhere, but I fit in everywhere?
 
 !SLIDE bullets incremental
 # Digital Repository #
+
+.notes architecting a digital repository
 
 !SLIDE center
 ![img/macrepo-DC.png](img/macrepo-DC.png)
