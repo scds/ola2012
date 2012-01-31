@@ -20,7 +20,7 @@ spin up a completely new machine ready to go, can't beat that.
 * .deb based Linux distributions
 * sysadmin through cherry-pick or clusterssh
 
-.notes KVM is a particular kind of Linux virtualization technology that requireshypervisor support in hardware. .deb is because I am a Debian fascist. Explain clusterssh.
+.notes KVM is a particular kind of Linux virtualization technology that requireshypervisor support in hardware. .deb is because I am a Debian fascist. Explain clusterssh. Designed for my comfort.
 
 !SLIDE bullets incremental
 # This is not terribly scalable #
@@ -47,17 +47,13 @@ spin up a completely new machine ready to go, can't beat that.
 * Physical services
 * Virtual services
 
-.notes Hey, man, this is a service profession innit? Still here, even with this. 
+.notes Hey, man, this is a service profession innit? Still here, even with this.So we're planning on having in-person consults, some species of regular office hours, as well as being available online. 
 
 !SLIDE bullets incremental
 # where do we stop or start with a project? #
 * ...
 
 .notes We're still really figuring this out. It's both a good and a bad thing. Early on, it's really great to cast your net as wide as possible, get some projects under your belt so you have something to point to, but later on if (when!) you get super popular, this becomes less scalable and that's where the SLA comes in.
-
-!SLIDE bullets incremental
-# Theory Vs. Practice #
-* aka hack v. yak
 
 !SLIDE bullets incremental
 # github #
