@@ -38,9 +38,9 @@ spin up a completely new machine ready to go, can't beat that.
 
 !SLIDE bullets incremental
 # sla writing #
-* Necessary for a framework
+* Documentation, documentation, documentation
 
-.notes This is hard. It's part of that plumbing thing that needs being done but is distinctly unsexy and a bit of a slog. But without it, people (can/(will?)) just roll right over you. Have a structure document is *important*. Deciding on that structure doco has to (like a lot of stuff) be a collaborative endeavour.
+.notes This is hard. It's part of that plumbing thing that needs being done but is distinctly unsexy and a bit of a slog. But without it, people (can/(will?)) just roll right over you. Have a structure document is *important*. Deciding on that structure doco has to (like a lot of stuff) be a collaborative endeavour. Documentation is (almost) always the thing that gets done as an afterthought.
 
 !SLIDE bullets incremental
 # services #
