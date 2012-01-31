@@ -2,7 +2,7 @@
 # John Fink #
 # Digital Scholarship Librarian #
 
-.notes Relax and breathe.
+.notes Relax and breathe. Intro yourself. 
 
 !SLIDE bullets incremental
 # Computing Infrastructure #
