@@ -1,3 +1,9 @@
+!SLIDE
+# Nick Ruest #
+## Digital Preservation Librarian, Repository Architect, and Digitization Coordinator ##
+
+.notes KEEP CALM AND CARRY ON BRO
+
 !SLIDE center
 ![img/RichFu.png](img/RichFu.png)
 I am odd.
@@ -8,16 +14,16 @@ I don't really fit in anywhere, but I fit in everywhere?
 
 .notes A position like mine does not fit perfectly into any single traditional library department. I like to joke that I have a lot of feet since I have a foot in nearly every department. I have a natural connection to IT given the tech behind most of what I do. But, at its heart, digital collections/preservation is just another form of collection development. I've bounced around a few departments (IT -> Research Collections -> Collections -> IT -> SCDS) over my time at Mac. But I think I have finally found a home in the centre. It is the best possible scenario at this point, and now I'm going to tell you why.
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # INFRASTRUCTURE #
 
 * Digitization
 * Digital Respository
 * Digital Preservation
 
-.notes one of my standard phases at work is INFRASTRUCTURE! Given that when I started at Mac there was nearly zero infrastructure for digitization or repository structure, we had to basically start from scratch. Over the last few years we have built some decent infrastructure for digitization. We have a hosted institutional repository from Bepress (DigitalCommons) and we have the begun the work of building a solid local digital repository with Fedora Commons and Islandora. We're also slowly working on policy and best practices for digital preservation. 
+.notes One of my standard phases at work is INFRASTRUCTURE! Given that when I started at Mac there was nearly zero infrastructure for digitization or repository structure, we had to basically start from scratch. Over the last few years we have built some decent infrastructure for digitization. We have a hosted institutional repository from Bepress (DigitalCommons) and we have the begun the work of building a solid local digital repository with Fedora Commons and Islandora. We're also slowly working on policy and best practices for digital preservation. 
 
-!SLIDE bullets
+!SLIDE
 # Digitization #
 
 * Local projects
@@ -28,9 +34,9 @@ I don't really fit in anywhere, but I fit in everywhere?
   * Masters and PhD theses
   * Book scanning
 
-.notes Digitization is one thing we are *really* good at. We have digitized an insane amount of materials over the last few years. But, the problem is a lot of it isn't publically available. This should begin to change very soon with the new digital repository. These are some local projects we have completed or are still ongoing. talk about each project briefly.
+.notes Digitization is one thing we are *really* good at. We have digitized an insane amount of material over the last few years. But, the problem is a lot of it isn't publically available. This should begin to change very soon with the new digital repository. These are some local projects we have completed or are still ongoing. talk about each project briefly.
 
-!SLIDE bullets
+!SLIDE
 # Digitization #
 
 * Partnerships
@@ -42,7 +48,7 @@ I don't really fit in anywhere, but I fit in everywhere?
 
 .notes besides or local projects, we have partnered with a couple of vendors to digitize entire collections. Normally hearing the word vendor partnership is something I would immediately scoff at, but these partnerships are not too bad when you think about them. talk about each partnership briefly.
         
-!SLIDE bullets
+!SLIDE
 # Digitization #
 
 * Challenges
@@ -55,32 +61,37 @@ I don't really fit in anywhere, but I fit in everywhere?
 
 .notes As I previously touched on, in terms of digitization we have grown very quickly. This has caused a number of issues in regards to infrastrutre. Yes, we may have scanned a couple thousand books - but are they publically available? NO. What is needed is a health balance between digitization and infrastructure. What I mean by infrastructure is having a repository to put all this stuff and make it publicly available. Thousands upons thousands of digital objects sitting on a storage arrays is of no use to anybody, and presents any number of issues in regards to digital preservation. What is truly needed is proper staffing, hardware infrastructure, and repository platform combined with some robust workflows and policy. None of which is easy in a spartan environment.
 
-!SLIDE bullets incremental
+!SLIDE incremental
 # Digital Repository #
 
-.notes architecting a digital repository
+.notes architecting a digital repository. a lot of planning involved. we have a lot of disparate already around, and what we really need is a central place to keep of this stuff. ONE REPOSITORY TO RULE THEM ALL! What we are building is a Fedora Commons and Islandora powered repository. We went the Islandora route as opposed to Hyrdra because of our current library infrastructure is pretty much all drupal powered, and folks are familar with it. Also, Islandora has a really great community that is rapidly growing right now.
 
 !SLIDE center
 ![img/macrepo-DC.png](img/macrepo-DC.png)
 
+.notes you really can't see anything, but this is kinda the point. it is a visual aid for people to understand just how much goes into the repository and what it covers. this is an on going and constantly evolving structure.
+
 !SLIDE center
 ![img/macrep-zoom.png](img/macrepo-zoom.png)
+http://ruebot.net/macrepo-visual/index.html
+
+.notes this is a zoom in section of the william ready division of archives and research collections, and this represents materials we have already digitized and can be ingested into the repository.
 
 !SLIDE center
 ![img/itm-maps.png](img/itm-maps.png)
 
+.notes last week we had successfully ingested our first collection into the repository - a collection of italian topographical maps from world war II. 
+
 !SLIDE center
 ![img/iiv-viewer.png](img/iiv-viewer.png)
 
-!SLIDE bullets
+.notes this is a shot of the djatoka powered islandora image viewer. we finally have a "easy" way display jpeg2000s.
+
+!SLIDE
 # Digital Preservation #
 
-* Documentation
-  * Documentation
-    * Documenation
-* Policy
-  * Policy
-    * Policy
+* DOCUMENTATION DOCUMENTATION DOCUMENTATION
+* POLICY POLICY POLICY
 * Technical stuff
   * Infrastructure
   * Code
@@ -91,14 +102,14 @@ I don't really fit in anywhere, but I fit in everywhere?
 !SLIDE center
 # Support #
 
-!SLIDE bullets
-# What can the repo do or provide? #
+!SLIDE
+# What can the repo and I do or provide? #
 
 * APIs
 * Text and data to analyze
 * Harvesting
 
-.notes Give the case scenario of PW20C vs. Virtual musuem of the holocaust and resitance. 
+.notes APIs (robust fedora apis and drupal apis) Text and data analysis - the giant corpus of all of our digitized and ocr'd books. Harvesting - Give the case scenario of PW20C vs. Virtual musuem of the holocaust and resitance. 
   
 !SLIDE center
 #Education & Knowledge Sharing #
@@ -138,4 +149,3 @@ I don't really fit in anywhere, but I fit in everywhere?
 * email: ruestn@mcmaster.ca
 * twitter: ruebot
 * github: http://github.com/ruebot
-* macrepo visualization: http://ruebot.net/macrepo-visual/index.html
