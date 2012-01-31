@@ -67,7 +67,10 @@ spin up a completely new machine ready to go, can't beat that.
 # version control evangelism #
 * *Anything* iterative and text based...
 * ... and everything *should* be iterative and text based
-* provides portability, flexibility, history tracking.
+* provides portability, flexibility, history tracking
+* Surprisingly, this is a new concept to many academic tech types
+
+.notes We will try to be flexible on many fronts -- languages, operating systems, service hours and service levels, but I would like to stick with one standard for documenting and sharing code. We've been using git for a while. Having documented changes and distributed backups of stuff is a Good Idea.
 
 
 !SLIDE
