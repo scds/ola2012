@@ -1,12 +1,12 @@
 !SLIDE center
 ![img/RichFu.png](img/RichFu.png)
-I am an odd duck.
+I am odd.
 
 !SLIDE center
 ![img/ConflictingEmotions.png](img/ConflictingEmotions.png)
 I don't really fit in anywhere, but I fit in everywhere?
 
-.notes A position like mine does not fit perfectly into any single traditional library department. I like to joke that I have a lot of feet since I have a foot in nearly every department. I have a natural connection to IT given the tech behind most of what I do. But, at its heart, digital collections/preservation is just another form of collection development. I've bounced around a few departments over my time at Mac, but I think I have finally found a home in the centre. It is the best possible scenario at this point.
+.notes A position like mine does not fit perfectly into any single traditional library department. I like to joke that I have a lot of feet since I have a foot in nearly every department. I have a natural connection to IT given the tech behind most of what I do. But, at its heart, digital collections/preservation is just another form of collection development. I've bounced around a few departments (IT -> Research Collections -> Collections -> IT -> SCDS) over my time at Mac. But I think I have finally found a home in the centre. It is the best possible scenario at this point, and now I'm going to tell you why.
 
 !SLIDE bullets incremental
 # INFRASTRUCTURE #
@@ -100,18 +100,38 @@ I don't really fit in anywhere, but I fit in everywhere?
 
 .notes Give the case scenario of PW20C vs. Virtual musuem of the holocaust and resitance. 
   
-!SLIDE bullets incremental
+!SLIDE center
 #Education & Knowledge Sharing #
 
-* Ingest
-* Digital Preservation
-* Harvesting
-* Metadata
-* Best practices
-* Project management
-* Version control
+!SLIDE center
+# Ingest #
 
-.notes Policy on what is required to ingest a collection into the repository - this is minumum requirements for objects and associated metadata. Consulting on best practices for digital preservation for a project, our us taking ownership of the objects. Harvesting - knowledge sharing about what harvesting is, and what can be done with it. Metadata - best practices, and guidance for setting up metadata requirements for a project. Best practices is just a catch all for everything that doesn't neatly fall into one of these areas. Project management - Guidance and knowledge sharing on project management. We've all had our hands in a number of projects, and lead our fair share. Here we share our best practices and can provide a sort of mentoring role, or actual project lead. Version control - John touched on this earlier, but we are huge version control advocates, specifically git. We can provide a lot of support and guidance in transitioning a project to version control, or from another system to git, or just the odd git question.
+.notes Policy on what is required to ingest a collection into the repository - this is minumum requirements for objects and associated metadata
+
+!SLIDE center
+# Preservation #
+
+.notes Consulting on best practices for digital preservation for a project, our us taking ownership of the objects.
+
+!SLIDE center
+# Harvesting #
+
+.notes Harvesting - knowledge sharing about what harvesting is, and what can be done with it.
+
+!SLIDE center
+# Metadata #
+
+.notes Metadata - best practices, and guidance for setting up metadata requirements for a project.
+
+!SLIDE center
+# Project management #
+
+.notes  Project management - Guidance and knowledge sharing on project management. We've all had our hands in a number of projects, and lead our fair share. Here we share our best practices and can provide a sort of mentoring role, or actual project lead.
+
+!SLIDE center
+# Version control #
+
+.notes Version control - John touched on this earlier, but we are huge version control advocates, specifically git. We can provide a lot of support and guidance in transitioning a project to version control, or from another system to git, or just the odd git question.
 
 !SLIDE center
 # Contact info #
