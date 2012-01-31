@@ -76,7 +76,9 @@ spin up a completely new machine ready to go, can't beat that.
 !SLIDE bullets incremental
 # project management #
 * Sort of like a reference interview
+* Redmine as project management software
 
+.notes A lot of times clients think they know what they need but maybe they're not 100%. That's part of what PM is, working out specs. Mention tribulations with Ali/Sevigny project. Most/(All?) of our projects also live on an internal bug tracker (Redmine) that also functions as project management software and might/will/possibly function also as CRM system too.
 
 !SLIDE center
 # Contact info #
