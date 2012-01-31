@@ -1,0 +1,536 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title></title>
+
+  <meta name="viewport" content="width=device-width"/>
+
+  <link rel="stylesheet" href="./css/reset.css" type="text/css"/>
+  <link rel="stylesheet" href="./css/showoff.css" type="text/css"/>
+
+  <script type="text/javascript" src="./js/jquery-1.4.2.min.js"></script>
+  <script type="text/javascript" src="./js/jquery.cycle.all.js"></script>
+	<script type="text/javascript" src="./js/jquery-print.js"></script>
+  <script type="text/javascript" src="./js/jquery.batchImageLoad.js"></script>
+
+  <script type="text/javascript" src="./js/jquery.doubletap-0.1.js"></script>
+
+  <script type="text/javascript" src="./js/fg.menu.js"></script>
+  <script type="text/javascript" src="./js/showoff.js"></script>
+  <script type="text/javascript" src="./js/jTypeWriter.js"> </script>
+  <script type="text/javascript" src="./js/sh_main.min.js"></script>
+  <script type="text/javascript" src="./js/core.js"></script>
+  <script type="text/javascript" src="./js/showoffcore.js"></script>
+  <script type="text/javascript" src="./js/coffee-script.js"></script>
+
+  <link type="text/css" href="./css/fg.menu.css" media="screen" rel="stylesheet" />
+  <link type="text/css" href="./css/theme/ui.all.css" media="screen" rel="stylesheet" />
+  <link type="text/css" href="./css/sh_style.css" rel="stylesheet" >
+
+  
+
+  
+
+  <script type="text/javascript">
+  $(function(){
+      setupPreso(false, './');
+  });
+  </script>
+
+</head>
+
+<body>
+
+<a tabindex="0" href="#search-engines" class="fg-button fg-button-icon-right ui-widget ui-state-default ui-corner-all" id="navmenu"><span class="ui-icon ui-icon-triangle-1-s"></span>slides</a>
+<div id="navigation" class="hidden"></div>
+
+<div id="help">
+  <table>
+    <tr><td class="key">z, ?</td><td>toggle help (this)</td></tr>
+    <tr><td class="key">space, &rarr;</td><td>next slide</td></tr>
+    <tr><td class="key">shift-space, &larr;</td><td>previous slide</td></tr>
+    <tr><td class="key">d</td><td>toggle debug mode</td></tr>
+    <tr><td class="key">## &lt;ret&gt;</td><td>go to slide #</td></tr>
+    <tr><td class="key">c, t</td><td>table of contents (vi)</td></tr>
+    <tr><td class="key">f</td><td>toggle footer</td></tr>
+    <tr><td class="key">r</td><td>reload slides</td></tr>
+    <tr><td class="key">n</td><td>toggle notes</td></tr>
+    <tr><td class="key">p</td><td>run preshow</td></tr>
+  </table>
+</div>
+
+<div class="buttonNav">
+  <input type="submit" onClick="prevStep();" value="prev"/>
+  <input type="submit" onClick="nextStep();" value="next"/>
+</div>
+
+<div id="preso">loading presentation...</div>
+<div id="footer">
+  <span id="slideInfo"></span>
+  <span id="debugInfo"></span>
+  <span id="notesInfo"></span>
+</div>
+
+<div id="slides" class="offscreen" style="display:none;">
+<div class="slide" data-transition="none"><div class="content" ref="./README">
+<p>This is the repository for <a href="http://library.mcmaster.ca">McMaster University Libraries</a> presentation for <a href="http://www.accessola.org/ola_prod/OLAWEB/Super_Conference/Welcome/OLAWEB/Super_Conference/Welcome.aspx">OLA Superconference 2012</a>, "A Digital Scholarship Centre? What is that!", presented on February 2nd, 2012 by <a href="http://bibliobrary.net">Dale Askey</a>, <a href="http://jbfink.github.com/">John Fink</a> and <a href="http://ruebot.net">Nick Ruest</a>.</p></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="./slides/scds/one/01_dale/1">
+<h1>A Digital Scholarship Centre? What is that!?</h1></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="./slides/scds/one/01_dale/2">
+<h1>THIS IS WHERE DALE'S SLIDES START</h1></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="./slides/scds/one/02_john/1">
+<h1>John Fink</h1>
+
+<h1>Digital Scholarship Librarian</h1>
+
+<p class="notes">Relax and breathe. Intro yourself.</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="./slides/scds/one/02_john/2">
+<h1>Computing Infrastructure</h1>
+
+<ul>
+<li>Heavy reliance on VMs</li>
+<li>Keep administration agile</li>
+</ul>
+
+
+<p class="notes">Could not do this with standard admin. Note that some work scenarios
+demand that outside parties have access (even root!) with inside machines:
+using VM insures that we can provide that if needed. Also, ~10-15 minutes to
+spin up a completely new machine ready to go, can't beat that.</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="./slides/scds/one/02_john/3">
+<h1>Right now this means</h1>
+
+<ul>
+<li>KVM for VMs</li>
+<li>.deb based Linux distributions</li>
+<li>sysadmin through cherry-pick or clusterssh</li>
+</ul>
+
+
+<p class="notes">KVM is a particular kind of Linux virtualization technology that requireshypervisor support in hardware. .deb is because I am a Debian fascist. Explain clusterssh. Designed for my comfort.</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="./slides/scds/one/02_john/4">
+<h1>This is not terribly scalable</h1>
+
+<ul>
+<li>Puppet/Chef for VM admin</li>
+<li>Maybe other OSs</li>
+</ul>
+
+
+<p class="notes">I am one guy and am not undergoing cellular mitosis. So at this point we are sort of OK, but scaling beyond is going to get hard. What's stopping me? laziness. Puppet/Chef are new. Laziness will always be a driver, so at the point where it's more lazy to use Puppet or Chef than do things clusterssh, I will switch.</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="./slides/scds/one/02_john/5">
+<h1>grad and faculty relationship</h1>
+
+<ul>
+<li>(initially) Concentrate on underserved populations</li>
+<li>At Mac this means humanities grad students, humanities in general</li>
+</ul>
+
+
+<p class="notes">At McMaster sadly enough historically most of the attention has been on STEM. However this is also AWESOME really because underserver population = a market that will think you are wonderful for helping them out. Grad students especially.</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="./slides/scds/one/02_john/6">
+<h1>sla writing</h1>
+
+<ul>
+<li>Documentation, documentation, documentation</li>
+</ul>
+
+
+<p class="notes">This is hard. It's part of that plumbing thing that needs being done but is distinctly unsexy and a bit of a slog. But without it, people (can/(will?)) just roll right over you. Have a structure document is <em>important</em>. Deciding on that structure doco has to (like a lot of stuff) be a collaborative endeavour. Documentation is (almost) always the thing that gets done as an afterthought.</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="./slides/scds/one/02_john/7">
+<h1>services</h1>
+
+<ul>
+<li>Physical services</li>
+<li>Virtual services</li>
+</ul>
+
+
+<p class="notes">Hey, man, this is a service profession innit? Still here, even with this.So we're planning on having in-person consults, some species of regular office hours, as well as being available online.</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="./slides/scds/one/02_john/8">
+<h1>where do we stop or start with a project?</h1>
+
+<ul>
+<li>...</li>
+</ul>
+
+
+<p class="notes">We're still really figuring this out. It's both a good and a bad thing. Early on, it's really great to cast your net as wide as possible, get some projects under your belt so you have something to point to, but later on if (when!) you get super popular, this becomes less scalable and that's where the SLA comes in.</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="./slides/scds/one/02_john/9">
+<h1>github</h1>
+
+<ul>
+<li>Already a site for a lot of DH development</li>
+<li>Scholarslab, CHNM</li>
+<li>Visibility!</li>
+</ul>
+
+
+<p class="notes">Source code as the new peer review. This is an easy way we can demonstrate our utility as well as give back and make a name for ourselves generally. Viz CHNM, with Zotero, etc. <em>VERY</em> important that we have license flexibility (DFSG compliant) as we'd like to default to an open source license (as part of SLA? maybe). github is pre-eminent source code hosting service. http://github.com/scds/ We did our slide deck there, f'rinstance. I sometimes elevator-speech it as "Google Docs on steroids".</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="./slides/scds/one/02_john/10">
+<h1>version control evangelism</h1>
+
+<ul>
+<li><em>Anything</em> iterative and text based...</li>
+<li>... and everything <em>should</em> be iterative and text based</li>
+<li>provides portability, flexibility, history tracking</li>
+<li>Surprisingly, this is a new concept to many academic tech types</li>
+</ul>
+
+
+<p class="notes">We will try to be flexible on many fronts -- languages, operating systems, service hours and service levels, but I would like to stick with one standard for documenting and sharing code. We've been using git for a while. Having documented changes and distributed backups of stuff is a Good Idea. <em>BUT</em> doing version control -- not just git, any VC -- requires a major rethinking of workflow and may be a harder sell to more conservative types.</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="./slides/scds/one/02_john/11">
+<h1>project management</h1>
+
+<ul>
+<li>Sort of like a reference interview</li>
+<li>Redmine as project management software</li>
+</ul>
+
+
+<p class="notes">A lot of times clients think they know what they need but maybe they're not 100%. That's part of what PM is, working out specs. Mention tribulations with Ali/Sevigny project. Most/(All?) of our projects also live on an internal bug tracker (Redmine) that also functions as project management software and might/will/possibly function also as CRM system too.</p></div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="./slides/scds/one/02_john/12">
+<h1>Contact info</h1>
+
+<ul>
+<li>email: john.fink@gmail.com</li>
+<li>twitter: adr</li>
+<li>github: http://github.com/adr</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="./slides/scds/one/03_nick/1">
+<p><img src="./file/./slides/scds/one/img/RichFu.png" width="164" height="228" alt="img/RichFu.png"/>
+I am an odd duck.</p></div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="./slides/scds/one/03_nick/2">
+<p><img src="./file/./slides/scds/one/img/ConflictingEmotions.png" width="92" height="196" alt="img/ConflictingEmotions.png"/>
+I don't really fit in anywhere, but I fit in everywhere?</p>
+
+<p class="notes">A position like mine does not fit perfectly into any single traditional library department. I like to joke that I have a lot of feet since I have a foot in nearly every department. I have a natural connection to IT given the tech behind most of what I do. But, at its heart, digital collections/preservation is just another form of collection development. I've bounced around a few departments over my time at Mac, but I think I have finally found a home in the centre. It is the best possible scenario at this point.</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="./slides/scds/one/03_nick/3">
+<h1>INFRASTRUCTURE</h1>
+
+<ul>
+<li>Digitization</li>
+<li>Digital Respository</li>
+<li>Digital Preservation</li>
+</ul>
+
+
+<p class="notes">one of my standard phases at work is INFRASTRUCTURE! Given that when I started at Mac there was nearly zero infrastructure for digitization or repository structure, we had to basically start from scratch. Over the last few years we have built some decent infrastructure for digitization. We have a hosted institutional repository from Bepress (DigitalCommons) and we have the begun the work of building a solid local digital repository with Fedora Commons and Islandora. We're also slowly working on policy and best practices for digital preservation.</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="./slides/scds/one/03_nick/4">
+<h1>Digitization</h1>
+
+<ul>
+<li>Local projects
+
+<ul>
+<li>Jewish Underground Resistance collection</li>
+<li>World War, 1939-1945, German Concentration Camps and Prisons collection</li>
+<li>Peace and War in the 20th Century</li>
+<li>Historical Perspectives on Canadian Publishing</li>
+<li>Masters and PhD theses</li>
+<li>Book scanning</li>
+</ul>
+</li>
+</ul>
+
+
+<p class="notes">Digitization is one thing we are <em>really</em> good at. We have digitized an insane amount of materials over the last few years. But, the problem is a lot of it isn't publically available. This should begin to change very soon with the new digital repository. These are some local projects we have completed or are still ongoing. talk about each project briefly.</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="./slides/scds/one/03_nick/5">
+<h1>Digitization</h1>
+
+<ul>
+<li>Partnerships
+
+<ul>
+<li>Adam Matthews
+
+<ul>
+<li>World War I collections (~20k objects)</li>
+</ul>
+</li>
+<li>Gale
+
+<ul>
+<li>Holocaust and Jewish Resistance materials (~26k objects)</li>
+<li>Pamphlet collections (starts in Febuary 2012</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+
+<p class="notes">besides or local projects, we have partnered with a couple of vendors to digitize entire collections. Normally hearing the word vendor partnership is something I would immediately scoff at, but these partnerships are not too bad when you think about them. talk about each partnership briefly.</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="./slides/scds/one/03_nick/6">
+<h1>Digitization</h1>
+
+<ul>
+<li>Challenges
+
+<ul>
+<li>Growing fast</li>
+<li>Infrastructure</li>
+<li>Public</li>
+<li>Repository</li>
+<li>Digital Preservation</li>
+<li>Staffing</li>
+</ul>
+</li>
+</ul>
+
+
+<p class="notes">As I previously touched on, in terms of digitization we have grown very quickly. This has caused a number of issues in regards to infrastrutre. Yes, we may have scanned a couple thousand books - but are they publically available? NO. What is needed is a health balance between digitization and infrastructure. What I mean by infrastructure is having a repository to put all this stuff and make it publicly available. Thousands upons thousands of digital objects sitting on a storage arrays is of no use to anybody, and presents any number of issues in regards to digital preservation. What is truly needed is proper staffing, hardware infrastructure, and repository platform combined with some robust workflows and policy. None of which is easy in a spartan environment.</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="./slides/scds/one/03_nick/7">
+<h1>Digital Repository</h1>
+
+<p class="notes">architecting a digital repository</p></div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="./slides/scds/one/03_nick/8">
+<p><img src="./file/./slides/scds/one/img/macrepo-DC.png" width="127" height="526" alt="img/macrepo-DC.png"/></p></div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="./slides/scds/one/03_nick/9">
+<p><img src="./file/./slides/scds/one/img/macrepo-zoom.png" width="1142" height="705" alt="img/macrep-zoom.png"/></p></div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="./slides/scds/one/03_nick/10">
+<p><img src="./file/./slides/scds/one/img/itm-maps.png" width="854" height="925" alt="img/itm-maps.png"/></p></div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="./slides/scds/one/03_nick/11">
+<p><img src="./file/./slides/scds/one/img/iiv-viewer.png" width="734" height="867" alt="img/iiv-viewer.png"/></p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="./slides/scds/one/03_nick/12">
+<h1>Digital Preservation</h1>
+
+<ul>
+<li>Documentation
+
+<ul>
+<li>Documentation
+
+<ul>
+<li>Documenation</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Policy
+
+<ul>
+<li>Policy
+
+<ul>
+<li>Policy</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Technical stuff
+
+<ul>
+<li>Infrastructure</li>
+<li>Code</li>
+</ul>
+</li>
+<li>THE COMMUNITY IS YOUR BEST FRIEND!</li>
+</ul>
+
+
+<p class="notes">I don't have time to go into a full blown digital preservation talk here, so I will keep it really brief. At its heart, digital preservation is a series or organizational changes. Your organization must be commited to these changes in practice else all will be for naught. So, basically there will be a lot of documentation. Document everything you do. Documention every change to a object, and transaction with that object. Policy-wise, all of your digital preservation practices must be tied to some sort of organization policy. Something to fall back on. And, as for the technical stuff, you need a solid infrastructure. A repository, and microservices to take care of the tedious nitty-gritty stuff like automatically converting tifs to jpeg2000s upon ingest. There is a wonderful community around all of this, and it is without a doubt your bestfriend.</p></div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="./slides/scds/one/03_nick/13">
+<h1>Support</h1></div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="./slides/scds/one/03_nick/14">
+<h1>What can the repo do or provide?</h1>
+
+<ul>
+<li>APIs</li>
+<li>Text and data to analyze</li>
+<li>Harvesting</li>
+</ul>
+
+
+<p class="notes">Give the case scenario of PW20C vs. Virtual musuem of the holocaust and resitance.</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="./slides/scds/one/03_nick/15">
+<h1>Education &amp; Knowledge Sharing</h1>
+
+<ul>
+<li>Ingest</li>
+<li>Digital Preservation</li>
+<li>Harvesting</li>
+<li>Metadata</li>
+<li>Best practices</li>
+<li>Project management</li>
+<li>Version control</li>
+</ul>
+
+
+<p class="notes">Policy on what is required to ingest a collection into the repository - this is minumum requirements for objects and associated metadata. Consulting on best practices for digital preservation for a project, our us taking ownership of the objects. Harvesting - knowledge sharing about what harvesting is, and what can be done with it. Metadata - best practices, and guidance for setting up metadata requirements for a project. Best practices is just a catch all for everything that doesn't neatly fall into one of these areas. Project management - Guidance and knowledge sharing on project management. We've all had our hands in a number of projects, and lead our fair share. Here we share our best practices and can provide a sort of mentoring role, or actual project lead. Version control - John touched on this earlier, but we are huge version control advocates, specifically git. We can provide a lot of support and guidance in transitioning a project to version control, or from another system to git, or just the odd git question.</p></div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="./slides/scds/one/03_nick/16">
+<h1>Contact info</h1>
+
+<ul>
+<li>email: ruestn@mcmaster.ca</li>
+<li>twitter: ruebot</li>
+<li>github: http://github.com/ruebot</li>
+<li>macrepo visualization: http://ruebot.net/macrepo-visual/index.html</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="./slides/scds/one/03_nick~/1">
+<h1>THIS IS WHERE NICK'S SLIDES START</h1></div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="./slides/scds/one/03_nick~/2">
+<p><img src="./file/./slides/scds/one/img/RichFu.png" width="164" height="228" alt="img/RichFu.png"/>
+I am an odd duck.</p></div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="./slides/scds/one/03_nick~/3">
+<p><img src="./file/./slides/scds/one/img/ConflictingEmotions.png" width="92" height="196" alt="img/ConflictingEmotions.png"/>
+I don't really fit in anywhere, but I fit in everywhere?</p>
+
+<p class="notes">A position like mine does not fit perfectly into any single traditional library department. I like to joke that I have a lot of feet since I have a foot in nearly every department. I have a natural connection to IT given the tech behind most of what I do. But, at its heart, digital collections/preservation is just another form of collection development. I've bounced around a few departments over my time at Mac, but I think I have finally found a home in the centre. It is the best possible scenario at this point.</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="./slides/scds/one/03_nick~/4">
+<h1>INFRASTRUCTURE</h1>
+
+<ul>
+<li>Digitization</li>
+<li>Digital Respository</li>
+<li>Digital Preservation</li>
+</ul>
+
+
+<p class="notes">one of my standard phases at work is INFRASTRUCTURE! Given that when I started at Mac there was nearly zero infrastructure for digitization or repository structure, we had to basically start from scratch. Over the last few years we have built some decent infrastructure for digitization. We have a hosted institutional repository from Bepress (DigitalCommons) and we have the begun the work of building a solid local digital repository with Fedora Commons and Islandora. We're also slowly working on policy and best practices for digital preservation.</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="./slides/scds/one/03_nick~/5">
+<h1>Digitization</h1>
+
+<ul>
+<li>Local projects
+
+<ul>
+<li>Jewish Underground Resistance collection</li>
+<li>World War, 1939-1945, German Concentration Camps and Prisons collection</li>
+<li>Peace and War in the 20th Century</li>
+<li>Historical Perspectives on Canadian Publishing</li>
+<li>Masters and PhD theses</li>
+<li>Book scanning</li>
+</ul>
+</li>
+</ul>
+
+
+<p class="notes">Digitization is one thing we are <em>really</em> good at. We have digitized an insane amount of materials over the last few years. But, the problem is a lot of it isn't publically available. This should begin to change very soon with the new digital repository. These are some local projects we have completed or are still ongoing. talk about each project briefly.</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="./slides/scds/one/03_nick~/6">
+<h1>Digitization</h1>
+
+<ul>
+<li>Partnerships
+
+<ul>
+<li>Adam Matthews
+
+<ul>
+<li>World War I collections (~20k objects)</li>
+</ul>
+</li>
+<li>Gale
+
+<ul>
+<li>Holocaust and Jewish Resistance materials (~26k objects)</li>
+<li>Pamphlet collections (starts in Febuary 2012</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+
+<p class="notes">besides or local projects, we have partnered with a couple of vendors to digitize entire collections. Normally hearing the word vendor partnership is something I would immediately scoff at, but these partnerships are not too bad when you think about them. talk about each partnership briefly.</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="./slides/scds/one/03_nick~/7">
+<h1>Digitization</h1>
+
+<ul>
+<li>Challenges
+
+<ul>
+<li>Growing fast</li>
+<li>Infrastructure</li>
+<li>Public</li>
+<li>Repository</li>
+<li>Digital Preservation</li>
+<li>Staffing</li>
+</ul>
+</li>
+</ul>
+
+
+<p class="notes">As I previously touched on, in terms of digitization we have grown very quickly. This has caused a number of issues in regards to infrastrutre. Yes, we may have scanned a couple thousand books - but are they publically available? NO. What is needed is a health balance between digitization and infrastructure. What I mean by infrastructure is having a repository to put all this stuff and make it publicly available. Thousands upons thousands of digital objects sitting on a storage arrays is of no use to anybody, and presents any number of issues in regards to digital preservation. What is truly needed is proper staffing, hardware infrastructure, and repository platform combined with some robust workflows and policy. None of which is easy in a spartan environment.</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="./slides/scds/one/03_nick~/8">
+<h1>Digital Repository</h1></div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="./slides/scds/one/03_nick~/9">
+<p><img src="./file/./slides/scds/one/img/macrepo-DC.png" width="127" height="526" alt="img/macrepo-DC.png"/></p></div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="./slides/scds/one/03_nick~/10">
+<p><img src="./file/./slides/scds/one/img/macrepo-zoom.png" width="1142" height="705" alt="img/macrep-zoom.png"/>
+check out the infograph here: http://ruebot.net/macrepo-visual/index.html</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="./slides/scds/one/03_nick~/11">
+<h1>Digitial Preservation</h1>
+
+<ul>
+<li>Documentation
+
+<ul>
+<li>Documentation
+
+<ul>
+<li>Documenation</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Policy
+
+<ul>
+<li>Policy
+
+<ul>
+<li>Policy</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Technical stuff
+
+<ul>
+<li>Infrastructure</li>
+<li>Code</li>
+</ul>
+</li>
+<li>THE COMMUNITY IS YOUR BEST FRIEND!</li>
+</ul>
+
+
+<p class="notes">I don't have time to go into a full blown digital preservation talk here, so I will keep it really brief. At its heart, digital preservation is a series or organizational changes. Your organization must be commited to these changes in practice else all will be for naught. So, basically there will be a lot of documentation. Document everything you do. Documention every change to a object, and transaction with that object. Policy-wise, all of your digital preservation practices must be tied to some sort of organization policy. Something to fall back on. And, as for the technical stuff, you need a solid infrastructure. A repository, and microservices to take care of the tedious nitty-gritty stuff like automatically converting tifs to jpeg2000s upon ingest. There is a wonderful community around all of this, and it is without a doubt your bestfriend.</p></div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="./slides/scds/one/03_nick~/12">
+<h1>Support</h1></div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="./slides/scds/one/03_nick~/13">
+<h1>What can the repo do or provide?</h1>
+
+<ul>
+<li>APIs</li>
+<li>Text and data to analyze</li>
+<li>Harvesting</li>
+</ul>
+
+
+<p class="notes">Give the case scenario of PW20C vs. Virtual musuem of the holocaust and resitance.</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="./slides/scds/one/03_nick~/14">
+<h1>Education &amp; Knowledge Sharing</h1>
+
+<ul>
+<li>Ingest</li>
+<li>Digital Preservation</li>
+<li>Harvesting</li>
+<li>Metadata</li>
+<li>Best practices</li>
+<li>Project management</li>
+<li>Version control</li>
+</ul>
+
+
+<p class="notes">Policy on what is required to ingest a collection into the repository - this is minumum requirements for objects and associated metadata. Consulting on best practices for digital preservation for a project, our us taking ownership of the objects. Harvesting - knowledge sharing about what harvesting is, and what can be done with it. Metadata - best practices, and guidance for setting up metadata requirements for a project. Best practices is just a catch all for everything that doesn't neatly fall into one of these areas. Project management - Guidance and knowledge sharing on project management. We've all had our hands in a number of projects, and lead our fair share. Here we share our best practices and can provide a sort of mentoring role, or actual project lead. Version control - John touched on this earlier, but we are huge version control advocates, specifically git. We can provide a lot of support and guidance in transitioning a project to version control, or from another system to git, or just the odd git question.</p></div>
+</div></div>
+
+</body>
+</html>
