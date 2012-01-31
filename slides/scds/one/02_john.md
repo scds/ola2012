@@ -73,8 +73,10 @@ spin up a completely new machine ready to go, can't beat that.
 .notes We will try to be flexible on many fronts -- languages, operating systems, service hours and service levels, but I would like to stick with one standard for documenting and sharing code. We've been using git for a while. Having documented changes and distributed backups of stuff is a Good Idea. *BUT* doing version control -- not just git, any VC -- requires a major rethinking of workflow and may be a harder sell to more conservative types.
 
 
-!SLIDE
-# project management and culture #
+!SLIDE bullets incremental
+# project management #
+* Sort of like a reference interview
+
 
 !SLIDE center
 # Contact info #
