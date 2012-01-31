@@ -2,7 +2,7 @@
 # John Fink #
 # Digital Scholarship Librarian #
 
-.notes Relax and breathe.
+.notes Relax and breathe. Intro yourself. 
 
 !SLIDE bullets incremental
 # Computing Infrastructure #
@@ -20,7 +20,7 @@ spin up a completely new machine ready to go, can't beat that.
 * .deb based Linux distributions
 * sysadmin through cherry-pick or clusterssh
 
-.notes KVM is a particular kind of Linux virtualization technology that requireshypervisor support in hardware. .deb is because I am a Debian fascist. Explain clusterssh.
+.notes KVM is a particular kind of Linux virtualization technology that requireshypervisor support in hardware. .deb is because I am a Debian fascist. Explain clusterssh. Designed for my comfort.
 
 !SLIDE bullets incremental
 # This is not terribly scalable #
@@ -38,16 +38,16 @@ spin up a completely new machine ready to go, can't beat that.
 
 !SLIDE bullets incremental
 # sla writing #
-* Necessary for a framework
+* Documentation, documentation, documentation
 
-.notes This is hard. It's part of that plumbing thing that needs being done but is distinctly unsexy and a bit of a slog. But without it, people (can/(will?)) just roll right over you. Have a structure document is *important*. Deciding on that structure doco has to (like a lot of stuff) be a collaborative endeavour.
+.notes This is hard. It's part of that plumbing thing that needs being done but is distinctly unsexy and a bit of a slog. But without it, people (can/(will?)) just roll right over you. Have a structure document is *important*. Deciding on that structure doco has to (like a lot of stuff) be a collaborative endeavour. Documentation is (almost) always the thing that gets done as an afterthought.
 
 !SLIDE bullets incremental
 # services #
 * Physical services
 * Virtual services
 
-.notes Hey, man, this is a service profession innit? Still here, even with this. 
+.notes Hey, man, this is a service profession innit? Still here, even with this.So we're planning on having in-person consults, some species of regular office hours, as well as being available online. 
 
 !SLIDE bullets incremental
 # where do we stop or start with a project? #
@@ -56,18 +56,33 @@ spin up a completely new machine ready to go, can't beat that.
 .notes We're still really figuring this out. It's both a good and a bad thing. Early on, it's really great to cast your net as wide as possible, get some projects under your belt so you have something to point to, but later on if (when!) you get super popular, this becomes less scalable and that's where the SLA comes in.
 
 !SLIDE bullets incremental
-# Theory Vs. Practice #
-* aka hack v. yak
-
-!SLIDE bullets incremental
 # github #
 * Already a site for a lot of DH development
 * Scholarslab, CHNM
 * Visibility!
 
-!SLIDE
-# version control evangelism #
+.notes Source code as the new peer review. This is an easy way we can demonstrate our utility as well as give back and make a name for ourselves generally. Viz CHNM, with Zotero, etc. *VERY* important that we have license flexibility (DFSG compliant) as we'd like to default to an open source license (as part of SLA? maybe). github is pre-eminent source code hosting service. http://github.com/scds/ We did our slide deck there, f'rinstance. I sometimes elevator-speech it as "Google Docs on steroids".
 
-!SLIDE
-# project management and culture #
+!SLIDE bullets incremental
+# version control evangelism #
+* *Anything* iterative and text based...
+* ... and everything *should* be iterative and text based
+* provides portability, flexibility, history tracking
+* Surprisingly, this is a new concept to many academic tech types
+
+.notes We will try to be flexible on many fronts -- languages, operating systems, service hours and service levels, but I would like to stick with one standard for documenting and sharing code. We've been using git for a while. Having documented changes and distributed backups of stuff is a Good Idea. *BUT* doing version control -- not just git, any VC -- requires a major rethinking of workflow and may be a harder sell to more conservative types. BUT you get ENORMOUS value for the time spent, for which I will talk your ear off at any point during this conference.
+
+
+!SLIDE bullets incremental
+# project management #
+* Sort of like a reference interview
+* Redmine as project management software
+
+.notes A lot of times clients think they know what they need but maybe they're not 100%. That's part of what PM is, working out specs. Mention tribulations with Ali/Sevigny project. Most/(All?) of our projects also live on an internal bug tracker (Redmine) that also functions as project management software and might/will/possibly function also as CRM system too.
+
+!SLIDE center
+# Contact info #
+* email: john.fink@gmail.com
+* twitter: adr
+* github: http://github.com/adr
 
