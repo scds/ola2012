@@ -61,7 +61,7 @@ spin up a completely new machine ready to go, can't beat that.
 * Scholarslab, CHNM
 * Visibility!
 
-.notes Source code as the new peer review. This is an easy way we can demonstrate our utility as well as give back and make a name for ourselves generally. Viz CHNM, with Zotero, etc. *VERY* important that we have license flexibility (DFSG compliant) as we'd like to default to an open source license (as part of SLA? maybe). github is pre-eminent source code hosting service. http://github.com/scds/ We did our slide deck there, f'rinstance.
+.notes Source code as the new peer review. This is an easy way we can demonstrate our utility as well as give back and make a name for ourselves generally. Viz CHNM, with Zotero, etc. *VERY* important that we have license flexibility (DFSG compliant) as we'd like to default to an open source license (as part of SLA? maybe). github is pre-eminent source code hosting service. http://github.com/scds/ We did our slide deck there, f'rinstance. I sometimes elevator-speech it as "Google Docs on steroids".
 
 !SLIDE bullets incremental
 # version control evangelism #
