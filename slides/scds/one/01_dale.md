@@ -29,6 +29,10 @@
   * creating policy, scope, guiding documents
   * several projects already running
 
+!SLIDE
+# Photo Tour #
+## (please insert your own people and furniture) ##
+  
 !SLIDE center
 ![img/L1030232.jpg](img/L1030232.jpg)
 
