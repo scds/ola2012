@@ -61,8 +61,14 @@ spin up a completely new machine ready to go, can't beat that.
 * Scholarslab, CHNM
 * Visibility!
 
-!SLIDE
+.notes Source code as the new peer review. This is an easy way we can demonstrate our utility as well as give back and make a name for ourselves generally. Viz CHNM, with Zotero, etc. *VERY* important that we have license flexibility (DFSG compliant) as we'd like to default to an open source license (as part of SLA? maybe). github is pre-eminent source code hosting service. http://github.com/scds/ 
+
+!SLIDE bullets incremental
 # version control evangelism #
+* *Anything* iterative and text based...
+* ... and everything *should* be iterative and text based
+* provides portability, flexibility, history tracking.
+
 
 !SLIDE
 # project management and culture #
