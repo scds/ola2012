@@ -148,7 +148,8 @@ http://ruebot.net/macrepo-visual/index.html
 .notes Version control - John touched on this earlier, but we are huge version control advocates, specifically git. We can provide a lot of support and guidance in transitioning a project to version control, or from another system to git, or just the odd git question.
 
 !SLIDE
-# STEALTH SCHOLARLY COMMUNICATION #
+# STEALTH #
+## SCHOLARLY COMMUNICATION ##
 
 .notes FINALLY, TO HORRIBLY WRAP THIS WHOLE THING UP. REALLY, WHAT WE ARE DOING IS SOME BIZARRE VERSION OF SCHOLARLY COMMUNICATION. WE'RE LIASING WITH FACULTY AND STUDENTS. WE'RE LISTENING TO THEIR CONCERNS, ISSUES, AND PROBLEMS AND TRYING TO PROVIDE A SOLUTION ALL WHILE SHARING OUR EXPERIENCE/KNOWLEDGE AND BEST PRACTICES. THEN AT THE SAME TIME, CAPTURING THEIR SCHOLARLY OUTPUT. WHICH, INCLUDES THE DATA AND FINAL OUTPUT OF THEIR RESEARCH. 
 
