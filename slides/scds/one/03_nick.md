@@ -107,9 +107,8 @@ http://ruebot.net/macrepo-visual/index.html
 
 * APIs
 * Text and data to analyze
-* Harvesting
 
-.notes APIs (robust fedora apis and drupal apis) Text and data analysis - the giant corpus of all of our digitized and ocr'd books. Harvesting - Give the case scenario of PW20C vs. Virtual musuem of the holocaust and resitance. 
+.notes Besides the standard ingest, search and discover of object, we have APIs (robust fedora apis and drupal apis) Text and data analysis - the giant corpus of all of our digitized and ocr'd books.
   
 !SLIDE center
 #Education & Knowledge Sharing #
