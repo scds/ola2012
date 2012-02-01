@@ -84,5 +84,5 @@ spin up a completely new machine ready to go, can't beat that.
 # Contact info #
 * email: john.fink@gmail.com
 * twitter: adr
-* github: http://github.com/adr
+* github: http://github.com/jbfink
 

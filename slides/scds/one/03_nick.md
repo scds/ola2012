@@ -103,7 +103,7 @@ http://ruebot.net/macrepo-visual/index.html
 # Support #
 
 !SLIDE
-# What can the repo and I do or provide? #
+# What can the repo and/or I do or provide? #
 
 * APIs
 * Text and data to analyze
@@ -122,22 +122,25 @@ http://ruebot.net/macrepo-visual/index.html
 !SLIDE center
 # Preservation #
 
-.notes Consulting on best practices for digital preservation for a project, our us taking ownership of the objects.
+.notes Consulting on best practices for digital preservation for a project, our us taking ownership of the objects archival versions of the objects. so education and knowledge sharing regarding international standards for preservation copies of objects, then "us" becoming stewards of the data.
 
 !SLIDE center
 # Harvesting #
 
-.notes Harvesting - knowledge sharing about what harvesting is, and what can be done with it.
+.notes Harvesting - (ASK HOW MANY PEOPLE KNOW WHAT OAI-PMH IS - THEN OKAY, HOW MANY HUMANIES, DAY-TO-DAY FACULTY MEMBERS KNOW WHAT IT IS. DO THEY KNOW WHAT ATOM IS? DO THEY KNOW WHAT RSS IS?) knowledge sharing about what harvesting is, and what can be done with it.
 
 !SLIDE center
 # Metadata #
 
-.notes Metadata - best practices, and guidance for setting up metadata requirements for a project.
+.notes Metadata - best practices, and guidance for setting up metadata requirements for a project. so, this is asking questions about the objects. IS THIS RUN OF THE MILL DC? IS THIS MODS? IS THIS DARWIN CORE? ARE WE GOING TO WRAP THIS ALL UP IN SOME DURTY METS? BUT REALLY, NO. BASICS. WHAT CAN YOU REALISTICALLY TELL MEOR YOUR INTENDED AUDIENCE ABOUT THIS OBJECT - THINKING BARE MINUMUM DUBLIN CORE THE ENTIRE TIME.
+
+!SLIDE center
+![img/kanye.png](img/kanye.png)
 
 !SLIDE center
 # Project management #
 
-.notes  Project management - Guidance and knowledge sharing on project management. We've all had our hands in a number of projects, and lead our fair share. Here we share our best practices and can provide a sort of mentoring role, or actual project lead.
+.notes Project management - JOHN HIT ON THIS EARLIER - GO ALL KANYE - Guidance and knowledge sharing on project management. We've all had our hands in a number of projects, and lead our fair share. Here we share our best practices and can provide a sort of mentoring role, or actual project lead.
 
 !SLIDE center
 # Version control #
@@ -146,6 +149,9 @@ http://ruebot.net/macrepo-visual/index.html
 
 !SLIDE center
 # Contact info #
-* email: ruestn@mcmaster.ca
+* email: ruestn@gmail.com
 * twitter: ruebot
 * github: http://github.com/ruebot
+
+!SLIDE
+# QUESTIONS? #
