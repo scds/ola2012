@@ -157,6 +157,7 @@ http://ruebot.net/macrepo-visual/index.html
 * email: ruestn@gmail.com
 * twitter: ruebot
 * github: http://github.com/ruebot
+* presentation: scds.heroku.com
 
 !SLIDE
 # QUESTIONS? #
